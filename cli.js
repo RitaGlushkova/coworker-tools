@@ -12,7 +12,7 @@
 const command = process.argv[2];
 
 // The array of members that you defined in the previous task
-const members = require("./members");
+const members = require("/Users/margaritaglushkova/Desktop/CYF WORK/GitHub/coworker-tools/members.js");
 
 if (command === "list") {
   runListCommand();
@@ -22,5 +22,10 @@ if (command === "list") {
 
 function runListCommand() {
   // Replace this with your implementation
-  console.log("Called the list command");
+  for (let member of members) {
+    for (let e in member) {
+      console.log(`${e}: ${member[e]}`);
+    }
+    console.log("\n");
+  } 
 }
