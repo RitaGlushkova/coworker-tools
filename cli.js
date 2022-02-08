@@ -22,5 +22,10 @@ if (command === "list") {
 
 function runListCommand() {
   // Replace this with your implementation
-  console.log(`Called the list command ${members}`);
+  for (let member of members) {
+    for (let e in member) {
+      console.log(`${e}: ${member[e]}`);
+    }
+    console.log("\n");
+  } 
 }
