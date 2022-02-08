@@ -1,3 +1,48 @@
-const members = [];
+const members = [
+  {
+    "first name": "John",
+    "last name": "Doe",
+    "job title ": "Software Engineer",
+    department: "Engineering",
+    manager: null,
+    location: "Glasgow",
+    "first aider": "no:",
+    "user slack": "johndoe",
+    timezone: "America/Los_Angeles",
+  },
+  {
+    "first name": "Jane",
+    "last name": "Doe",
+    "job title ": "Software Engineer",
+    department: "Engineering",
+    manager: "John Doe",
+    location: "Leeds",
+    "first aider": "no:",
+    "user slack": "janedoe",
+    timezone: "America/Los_Angeles",
+  },
+  {
+    "first name": "Bon",
+    "last name": "Doe",
+    "job title ": "Software Engineer",
+    department: "Engineering",
+    manager: "Jane Doe",
+    location: "Cape Town",
+    "first aider": "no:",
+    "user slack": "bobdoe",
+    timezone: "America/Los_Angeles",
+  },
+  {
+    "first name": "Sally",
+    "last name": "Doe",
+    "job title ": "Software Engineer",
+    department: "Engineering",
+    manager: "Jane Doe",
+    location: "Rome",
+    "first aider": "no:",
+    "user slack": "sallydoe",
+    timezone: "America/Los_Angeles",
+  },
+];
 
 module.exports = members;
